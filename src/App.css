@@ -1,0 +1,44 @@
+.main-container{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #d0bebe87;
+}
+.from-container{
+  background: #fff;
+  padding: 50px;
+  box-shadow: 2px 2px 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+.from-container h3{
+  margin-top: 10px;
+  font-size: 25px;
+}
+.from-container input{
+  margin-left: 10px;
+  border: 0;
+  outline: none;
+  background: #a5a3a353;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+#password{
+  margin-left: 16px;
+}
+.from-container button{
+  margin-top: 20px;
+  float: left;
+  background: #8200db;
+  padding: 8px 19px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.3s;
+}
+.from-container button:hover{
+  background: #5c0198;
+}
